@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Profil.css">
+    <title>Profil</title>
+</head>
+<body>
+    <header>
+     <section><h2>Nom Et Prenom</h2></header><br>
+      <h3>Kachchaf Sara</h3>
+    </section>
+    <section class="safe" id="safe">
+        <img src="view.jpeg" alt="" width="400px" height="400px">
+       <h2>About Me</h2>
+       <p><h3>Je m'appelle Sara Kachchaf, j'ai 20 ans je suis étudiante à EMSI école marocaine des ingénieurs.<br>
+         J'étudie l'IT parceque de nos jours on remarque que beaucoup de gens utilisent l'informatique dans divers domaines.</h3></p><br>
+    </section>
+    <section>
+     <ul>
+         <h2>My Hobbies :</h2><br>
+             <h4>Reading Books</h4><br>
+             <h4>Drawing</h4><br>
+             <h4>Listening To Music</h4><br>
+             <h4>Cooking</h4><br>
+     </ul>
+    </section>
+    <section>
+        <ol>
+         <h2>My Goals This year :</h2><br>
+             <h4>Develop My Self </h4><br>
+             <h4>Learn New Skills In Web Developpement</h4><br>
+             <h4>Make And Create New Projects</h4>
+     </ol>
+    </section>
+    <section>
+        <h2>Tableau d'Amis :</h2>
+        <table border="1px">
+         <tr >
+              <th>Nom</th>
+              <th>Age</th>
+             <th>Ville</th>
+             <th>Lien</th>
+         </tr>
+        <tr>
+             <td>Maha</td>
+             <td>21</td>
+            <td>Casablanca</td>
+             <td><a href="https://github.com/maha-idr/maha2.git"target="">lien</a></td>
+        </tr>
+        <tr>
+             <td>Maria</td>
+             <td>19</td>
+             <td>Casablanca</td>
+             <td><a href="https://github.com/Dev-web-Maria/profile_avance.git"target="">lien</a></td>
+        </tr>
+        <tr>
+             <td>Ghita</td>
+             <td>20</td>
+             <td>Casablanca</td>
+             <td><a href="https://github.com/GHITA-chaouki/WEB/commits?author=GHITA-chaouki"target="">lien</a></td>
+        </tr>
+        <tr>
+            <td>Zineb</td>
+            <td>20</td>
+            <td>Casablanca</td>
+            <td><a href="https://github.com/User-lang-max/ZINEB-S-WEBSITE/upload/main"target="">lien</a></td>
+       </tr>
+        </table>
+    </section>
+    <section class="same" id="same"><h2>Formulaire De Contact :</h2><br>
+        <div class="ss" id="ss">
+         <label form="Nom">Nom :</label>
+         <input type="text" id="Nom"required><br><br>
+         <label form="Email">Email :</label>
+         <input type="email" id="Email"required><br><br>
+         <label form="Message">Message :</label>
+         <textarea id="Message"required></textarea><br><br>
+         <button type="submit">Envoyer</button>
+        </div>
+        </section>
+
+     <script>
+       document.getElementById("contactForm").addEventListener("submit", function(event) {
+         let name = document.getElementById("name").value;
+         let email = document.getElementById("email").value;
+         let message = document.getElementById("message").value;
+
+    if (name === "" || email === "" || message === "") {
+        alert("Veuillez remplir tous les champs.");
+        event.preventDefault();
+    } else {
+        alert("Formulaire soumis avec succès !");
+    }
+});
+     </script>
+
+</body>
+</html>

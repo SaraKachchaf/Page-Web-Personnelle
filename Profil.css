@@ -1,0 +1,43 @@
+*{
+    margin: 10px;
+    background-color:gray;
+}
+header{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+   
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid;
+    
+}
+#safe{
+   text-align: center;
+}
+img:hover{
+    transform: scale(0.9);
+}
+h4{
+    text-align: center;
+}
+table{
+    border: 1px solid;
+   text-align: center;
+   width: 98.5%;
+   padding: 8px;
+}
+#same{
+ text-align: center;
+}
+.ss{
+    text-align: center;
+    border: 1px solid;
+}
+textarea{
+    border: 1px solid;
+}
